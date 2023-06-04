@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 09 Assignment - Information</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <nav class="navbar navbar-expand-lg bg-dark text-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/AnotherLogo.png" height="40"alt="a logo">
+            Vallente</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Information</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Options
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a href="follow.html" class="dropdown-item">Follow Me</a>
+                        <a href="#" class="dropdown-item">Eat Like Me</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">My Pets</a>
+                    </div>
+                </li>
+            </ul>
+            
+          </div>
+          <span class="navbar-text">
+            A Website of Everything & Nothing.
+          </span>
+        </div>
+    </nav>
+
+    <div class="container bg-info">
+        <div class="row">
+            <div class="col-lg-4 col-md-8 mx-auto m-5 py-2 px-5 text-center">
+                <h2 class="text-light">Let's Talk Food</h2>
+                <p class="text-light pt-2">
+                    Have you heard about the Cube Rule of Food? It is a theory about how to categorize foods under 6 different classes: Toast, Sandwich, Taco, Sushi, Soup/Salad, Calzone. 
+                    It is an interesting topic of conversation. It does not hold much importance with life in general but it is a fun way to classify food.
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-8 mx-auto m-2 text-center">
+                <img 
+                    src="https://kottke.org/plus/misc/images/cube-rule-food-01.jpg" 
+                    alt="visual aid for the cube rule of food"
+                    class="img-fluid rounded mx-auto d-block">
+                <!---https://kottke.org/18/12/the-cube-rule-of-food-the-grand-unified-theory-of-food-identification 
+                where I got the image and examples-->
+            </div>
+        </div>
+        <div class="row m-4 p-2">
+            <table class="table table-hover table-dark">
+                <caption class="text-white">Some Examples Following the Cube Rule</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Food Dish</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Pizza</td>
+                    <td>Toast</td>
+                    <td>Pizza is just gourmet toast.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Hot Dog</td>
+                    <td>Taco</td>
+                    <td>Some concept, different textures.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Taquito</td>
+                    <td>Sushi</td>
+                    <td>Same thing, but one is soft, other is crunchy.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Fried Rice</td>
+                    <td>Salad</td>
+                    <td>Multiple ingredients mixed together evenly.</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div class="row m-4 p-2">
+            <div class="col-6 col-md-4 p-2 text-left text-white">
+                <h4>Do You Follow?</h4>
+                <hr class="border-bottom">
+                <p>While it may be a weird concept, it is a funny way to think about food. The ingredients and tastes are completely different but the building blocks are the same. 
+                    For example, soup and salad are both described under the same category because they are both ingredients that are almost homogenously or uniformly mixed together into one dish. </p>
+            </div>
+            <div class="col-12 col-md-8 p-3 bg-light rounded">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Food/Dish</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Food/Dish">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Category select</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Toast</option>
+                        <option>Sandwich</option>
+                        <option>Taco</option>
+                        <option>Sushi</option>
+                        <option>Soup/Salad</option>
+                        <option>Calzone</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Additional Notes</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Submit form</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <footer class="blog-footer text-center">
+        <p>Website created by Vanessa Bagolor with Bootstrap</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+    </footer>
+</body>
+</html>

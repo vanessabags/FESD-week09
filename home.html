@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 09 Bootstrap Assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+    <nav class="navbar navbar-expand-sm nav-dark bg-dark text-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/AnotherLogo.png" height="40" alt="logo">
+                Vallente
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNacDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="navbar-item active"> <a class="nav-link" href="#">Home</a></li>
+                    <li class="navbar-item"> <a href="content.html" class="nav-link">Information</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                            Options
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a href="follow.html" class="dropdown-item">Follow Me</a>
+                            <a href="#" class="dropdown-item">Eat Like Me</a>
+                            <div class="dropdown-divider"></div>
+                            <a href="#" class="dropdown-item">My Pets</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <span class="navbar-text">
+                A Website of Everything & Nothing.
+            </span>
+        </div>
+    </nav>
+    
+    <div class="container text-center mb-5 fs-2 bg-secondary">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 mx-auto m-5 py-2 px-5">
+                <h2 class="text-light">Welcome to My World</h2>
+                <p class="text-light pt-2">
+                    This is an assignment. I shall continue this paragraph with random text. Pineapple on pizza is a weird stance because some people take this preference too seriously.
+                    Personally, I like pineapple pizza, especially with ham, because you get sweet and savory. Anyways, you will see a lot of random information about me in this assignment.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md">
+            <div id="card-1" class="card bg-info p-2">
+              <img
+                src="images/2008-treasureisland.jpg"
+                class="card-img-top"
+                alt="child at the beach with her family"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">2008</h5>
+                <p class="card-text">A picture of myself with my cousins at the beach. I was about 8 years old. 
+                    Add more text. Add more text. Add more text. Add more text. Add more text. Add more text.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div id="card-2" class="card bg-info p-2">
+              <img
+                src="images/2018seniorluau.jpg"
+                class="card-img-top"
+                alt="photo of a polaroid"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">2018</h5>
+                <p class="card-text">My friends & I during our senior luau. Located in the front and center, I look cute but shortest of them all. Text, text, and more text. <br> At Ewa Beach, Hawai'i.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div id="card-3" class="card bg-info p-2">
+              <img
+                src="images/_MG_0722.JPG"
+                class="card-img-top"
+                alt="candid photo of myself squatting outside the church after my sister's wedding ceremony"
+                width="100"
+              />
+              <div class="card-body">
+                <h5 class="card-title">2023</h5>
+                <p class="card-text">A recent candid photo of myself. Sitting outside a church, I am cooling off after my sister's wedding ceremony. The Philippine air was warm during that time of the year.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-left">
+            <div class="col-lg-8 m-4">
+                <h3 class="pb-4 font-italic border-bottom text-white">Made in PH. Born in HI.</h3>
+                <article class="blog-post-meta text-white">
+                    <h2 class="blog-post-title mb-1">Titles of Me</h2>
+                    <p class="blog-post-meta">June 03, 2023 by Vanessa</p>
+                    <p>One of my favorite quotes by my father: Made in the Philippines. Born in Hawai'i. While totally explainable and straightforward, it is not just funny but it reminds me of the fact that 
+                        for a long time my family was separated. My father lived away from his family for multiple years either for work in a different country or because he was the last one to move to the US and get a green card. 
+                        But either way, it is funny to think about and to say. 
+                    </p>
+                    <hr class="border-bottom">
+                    <p>
+                        Another paragraph for funsies. Or rant? I do not know much about inflation but I do know that in middle school I would go with my friends to McDonald's after school and the price of large fries was $2.59. 
+                        But if you look up the prices today, you will find that small fires cost $2.89. And when you think about the size difference, inflation has made it more than doubled. French fries are so delicious. 
+                        At this point, everyone should just take the time and buy frozen french fries from the store. But then you will definitely eat more than twice the size of a McDonald's large fries - maybe three times the size. 
+                        French fries! French fries! 
+                    </p>
+                    <blockquote class="blockquote font-italic">
+                        <p>"Crinkle fries are the worst kind of French Fries."</p>
+                      </blockquote>
+                    <p>
+                        I got nothing else to say or write. So here is a list of shows I have watched recently
+                    </p>
+                    <h4>Current Watchlist</h4>
+                    <ul>
+                        <li>Young Sheldon</li>
+                        <li>Familiar Wife</li>
+                        <li>Criminal Minds</li>
+                        <li>Doctor Cha</li>
+                        <li>iCarly</li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-lg-3">
+                <div class="p-4 my-3 bg-light rounded">
+                    <h4 class="font-bold">About</h4>
+                    <p class="mb-0">My ID says I'm 5'1 but it's more likely 5'0. I got black-hair but with my parent's genes and no money, it is my only option right now.</p>
+                </div>
+                <div class="p-4 text-white">
+                    <h4 class="font-bold">Interesting Words</h4>
+                    <hr class="border-bottom">
+                    <ul>
+                        <li>Bubble</li>
+                        <li>Moist</li>
+                        <li>Kaneohe</li>
+                        <li>Whipple</li>
+                        <li>Escargo</li>
+                        <li>Puka</li>
+                        <li>Piccolo</li>
+                    </ul>
+                </div>
+                <div class="p-4 my-3 bg-light rounded">
+                    <h4 class="font-bold">I Made This Logo?</h4>
+                    <img src="images/AnotherLogo.png" alt="a logo">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="blog-footer text-center">
+        <p>Website created by Vanessa Bagolor with Bootstrap</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+      </footer>
+</body>
+</html>
