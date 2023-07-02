@@ -29,8 +29,8 @@ assignment: create a website with HTML & Bootstrap
 
 ## Installation
 this project is mainly for learning the technical aspects of Bootstrap & its framework
-~install bootstrap
->npm install bootstrap
+install bootstrap
+| npm install bootstrap |
 
 ##Favorite Features
 -form with dropdown options, text box, and submit button
